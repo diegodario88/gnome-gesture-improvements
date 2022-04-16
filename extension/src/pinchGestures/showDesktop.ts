@@ -45,6 +45,8 @@ declare type WindowActorClone = {
 		start: Point,
 		end: Point,
 	},
+	apertureDistances?: [number, number, number, number],
+	apertureCorner?: number,
 };
 
 class MonitorGroup {
